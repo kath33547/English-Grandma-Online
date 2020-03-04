@@ -9,7 +9,7 @@ $con = mysqli_connect($dbhost, $dbuser, $dbpass) or die("Connection failed: " . 
 
 $db = mysqli_select_db($con, $db);
 
-echo"success!";
+echo "success!";
 
 
 
