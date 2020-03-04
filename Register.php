@@ -28,7 +28,7 @@
             <h2>Sign Up</h2>
         </div>
 <!-- PHP Registration Form-->
-        <form method="post" action="register.php">
+        <form method="post" action="Register.php">
           <!-- Display Validation Errors Here-->
           <?php include('errors.php'); ?>
 
@@ -39,7 +39,7 @@
           </div>
           <div class = "input-group">
              <label>Email</label>
-             <input type= "text" name="username">
+             <input type= "email" name="email">
           </div>
           <div class = "input-group">
              <label>Password</label>
